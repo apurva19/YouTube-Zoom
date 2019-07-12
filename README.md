@@ -9,4 +9,4 @@ A Chrome extension that allows you to zoom any video on YouTube.
 
 **This icon appears in every video**
 
-![Preview Image](https://github.com/apurva19/YouTube-Zoom/Sample-Image.png)
+![Preview Image](https://github.com/apurva19/YouTube-Zoom/blob/master/Sample-Image.png)
