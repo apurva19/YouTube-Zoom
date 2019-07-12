@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Zoom",
+    "description": "This extension let's you zoom in any video on YouTube.",
+    "version": "1.0",
+    "author": "Apurva Sharma",
+    "icons": { 
+        "16": "icons/icon.png",
+        "48": "icons/icon-48.png",
+        "128": "icons/icon-128.png" 
+    },
+    "background": {
+        "persistent":true,
+        "page":"background.html"
+    },
+    "content_scripts": [{
+            "matches": ["https://www.youtube.com/*"],
+            "css": ["app.css"],
+            "js": ["app.js"]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "https://www.youtube.com/*"
+    ]
+}
